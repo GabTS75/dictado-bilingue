@@ -137,7 +137,7 @@ Mantener **Mayús derecho 8 segundos** activa en Windows el aviso de *Teclas fil
 
 2. Cambiar `en-es` en `config.local.json` a una tecla que no sea Mayús derecho (el aviso solo salta con esa tecla), por ejemplo `f8`. Evita `lshift`: la usas al escribir mayúsculas y empezaría a grabar sin querer.
 
-## Banco de pruebas de transcripción
+## Banco de pruebas de transcripción (pendiente)
 
 Para decidir con datos cómo mejorar la transcripción, `dictado/banco_transcripcion.py` graba **una vez** (en RAM) un texto conocido y prueba varios ajustes de Whisper sobre ese mismo audio, midiendo el error por palabras (WER) y mostrando qué palabras falla cada uno:
 
