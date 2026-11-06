@@ -1,6 +1,7 @@
 # Frases de ejemplo ES -> EN (NO confidenciales). Una por línea; las líneas con # se ignoran.
 # Mezclan registros, modismos y términos técnicos para valorar si la traducción suena nativa.
 # Para usar tus propias frases, crea pruebas/mis_frases_es.local.txt (los *.local.txt no se versionan).
+
 Buenos días, Marta. Te escribo para confirmar la reunión del jueves a las diez.
 Lamento el retraso en mi respuesta; he estado fuera de la oficina toda la semana.
 ¿Podrías enviarme el informe antes del viernes? Lo necesito para la revisión con el cliente.
