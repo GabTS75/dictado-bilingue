@@ -25,7 +25,7 @@ Lo imagino como una cabina de interpretación con cuatro puestos, cada uno con u
 ```
 
 | Pieza | Tecnología | Cómo cuido la privacidad |
-| --- | --- | --- |
+| :---: | --- | --- |
 | Voz → texto | faster-whisper `large-v3-turbo` (CPU, int8) | Sin red; el audio vive solo en RAM y se pone a cero |
 | Traducción | TranslateGemma 4b con Ollama en `127.0.0.1` | Le cierro la salida con el cortafuegos de Windows y lo compruebo |
 | Atajo | `GetAsyncKeyState`, solo las teclas del atajo | No es un keylogger: sin ganchos ni librerías extra |
@@ -33,7 +33,7 @@ Lo imagino como una cabina de interpretación con cuatro puestos, cada uno con u
 ## Hasta dónde llegué
 
 | Fase | Qué hice | Estado |
-| --- | --- | --- |
+| :---: | --- | --- |
 | [1](fases/01-transcripcion/README.md) | Transcripción local y mediciones, también sin WiFi | ✅ |
 | [2](fases/02-traduccion/README.md) | Comparar modelos de traducción y blindar Ollama con el cortafuegos | ✅ |
 | [3](fases/03-atajo/README.md) | Atajo «mantener para hablar» (Ctrl derecho / Mayús derecho) | ✅ probado en mi equipo |
@@ -93,21 +93,21 @@ Después, [Fase 2](fases/02-traduccion/README.md) para Ollama y el cortafuegos, 
 ## Estructura
 
 ```text
-dictado/                 Código; cada módulo hace una sola cosa
-  privacidad.py          Bloqueo de red y autotest
-  comprobar_equipo.py    Requisitos mínimos
-  descargar_modelos.py   Único script propio con internet (modelo + huellas SHA-256)
-  fase1_transcribir.py   Grabar y transcribir
-  banco_transcripcion.py Compara ajustes de Whisper con mi voz (WER)
-  traductor.py           Traducción local vía Ollama (solo 127.0.0.1)
-  fase2_traducir.py      Comparador de modelos y prueba voz → traducción
-  teclas.py              Atajos: solo consulta las teclas del atajo
-  config.py              Configuración (por defecto + config.local.json)
-  fase3_atajo.py         Mantener para hablar
-fases/                   Un README por fase, con resultados y capturas
-docs/                    Plan, requisitos, privacidad y cómo retomarlo
-pruebas/                 Frases de ejemplo (mis *.local.txt no se suben)
-config.ejemplo.json      Plantilla de configuración
+dictado/                 => Código; cada módulo hace una sola cosa
+  privacidad.py          => Bloqueo de red y autotest
+  comprobar_equipo.py    => Requisitos mínimos
+  descargar_modelos.py   => Único script propio con internet (modelo + huellas SHA-256)
+  fase1_transcribir.py   => Grabar y transcribir
+  banco_transcripcion.py => Compara ajustes de Whisper con mi voz (WER)
+  traductor.py           => Traducción local vía Ollama (solo 127.0.0.1)
+  fase2_traducir.py      => Comparador de modelos y prueba voz → traducción
+  teclas.py              => Atajos: solo consulta las teclas del atajo
+  config.py              => Configuración (por defecto + config.local.json)
+  fase3_atajo.py         => Mantener para hablar
+fases/                   => Un README por fase, con resultados y capturas
+docs/                    => Plan, requisitos, privacidad y cómo retomarlo
+pruebas/                 => Frases de ejemplo (mis *.local.txt no se suben)
+config.ejemplo.json      => Plantilla de configuración
 ```
 
 ## Licencias de terceros
