@@ -1,9 +1,8 @@
 # Dictado bilingüe local (ES ⇄ EN)
 
-> **Estado: ⏸️ en pausa (después de la Fase 3).** Funciona, está medido y documentado, pero
-> lo dejo aparcado momentánemaente a propósito. Más abajo te cuento por qué y cómo lo pienso retomar.
+> **Estado: ⏸️ en pausa (después de la Fase 3).** Funciona, está medido y documentado, pero lo dejo aparcado momentánemaente a propósito. Más abajo te cuento por qué y cómo lo pienso retomar.
 
-En resumen, hablar en un idioma y que el texto aparezca escrito en otro, en la aplicación que tenga abierta: un correo, un Word, el chat de una reunión. Todo dentro de mi portátil, sin nube, sin cuentas, sin claves de API y sin que mi voz ni mi texto salgan de casa.
+Este proyecto es en resumen, hablar en un idioma y que el texto aparezca escrito en otro, en la aplicación que tengas abierta: *un correo, un Word, el chat de una reunión*. Todo dentro de mi portátil, sin nube, sin cuentas, sin claves de API y sin que mi voz ni mi texto salgan de casa.
 
 ## Por qué lo empecé
 
@@ -26,7 +25,7 @@ Lo imagino como una cabina de interpretación con cuatro puestos, cada uno con u
 ```
 
 | Pieza | Tecnología | Cómo cuido la privacidad |
-|---|---|---|
+| --- | --- | --- |
 | Voz → texto | faster-whisper `large-v3-turbo` (CPU, int8) | Sin red; el audio vive solo en RAM y se pone a cero |
 | Traducción | TranslateGemma 4b con Ollama en `127.0.0.1` | Le cierro la salida con el cortafuegos de Windows y lo compruebo |
 | Atajo | `GetAsyncKeyState`, solo las teclas del atajo | No es un keylogger: sin ganchos ni librerías extra |
@@ -34,7 +33,7 @@ Lo imagino como una cabina de interpretación con cuatro puestos, cada uno con u
 ## Hasta dónde llegué
 
 | Fase | Qué hice | Estado |
-|---|---|---|
+| --- | --- | --- |
 | [1](fases/01-transcripcion/README.md) | Transcripción local y mediciones, también sin WiFi | ✅ |
 | [2](fases/02-traduccion/README.md) | Comparar modelos de traducción y blindar Ollama con el cortafuegos | ✅ |
 | [3](fases/03-atajo/README.md) | Atajo «mantener para hablar» (Ctrl derecho / Mayús derecho) | ✅ probado en mi equipo |
