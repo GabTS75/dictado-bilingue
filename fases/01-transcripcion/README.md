@@ -29,13 +29,17 @@ python -m dictado.fase1_transcribir --idioma es --segundos 8
 | Inglés (hablante no nativo) | Fallos puntuales: *these→the*, *thoroughly→thoughtfully*, *mains→main*, *appliance→appliances* |
 | Sin red (WiFi desconectado) | Idéntico: español e inglés |
 
-Whisper trabaja en ventanas fijas de 30 s, por lo que el tiempo apenas crece con la duración:
-conviene dictar párrafos completos.
+Whisper trabaja en ventanas fijas de **30 s**, por lo que el tiempo apenas crece con la duración: ***conviene dictar párrafos completos***.
 
-## Evidencias
+## Primeras capturas
 
-Aquí van mis capturas de la comprobación del equipo, la transcripción en español e inglés y la prueba sin WiFi (carpeta `capturas/`).
+Debido a que fueron las primeras pruebas (hice varias), he perdido por error esas capturas que miden el tiempo y muestran los fallos. Aquí muestro lo que tengo de esas primeras capturas: la verificación de Python y la instalación de los requerimientos, además de la comprobación del equipo.
 
-## Decisión de diseño que arrastra a las siguientes fases
+| # | Captura | Qué se ve |
+| :---: | --- | --- |
+| 1 | ![](capturas/01-version-instala-requerimientos.png) | Verifica la versión de Python e instalación de los requerimientos |
+| 2 | ![](capturas/02-comprobar-equipo.png) | Comprobación del equipo |
+
+## Decisión inicial de diseño que arrastra a las siguientes fases
 
 Los errores de transcripción en inglés pasarán a la traducción inglés → español sin avisar. Por eso la [Fase 4](../04-escritura-en-app/README.md) incluirá «revisar antes de escribir».
