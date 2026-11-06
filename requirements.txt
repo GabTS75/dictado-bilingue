@@ -1,0 +1,18 @@
+# Dependencias de la Fase 1 (mínimas a propósito).
+#
+# Antes de publicar el repositorio (Fase 6) se fijarán versiones exactas y huellas:
+#   pip install pip-tools
+#   pip-compile --generate-hashes requirements.in
+#   pip install --require-hashes -r requirements.txt
+#
+# faster-whisper : transcripción local (Whisper sobre CTranslate2)
+# sounddevice    : captura de micrófono
+# numpy          : buffer de audio en memoria
+#
+# Fase 3: sin dependencias nuevas (ctypes y winsound vienen con Python en Windows).
+#
+# Fase 2: sin dependencias nuevas. La traducción habla con Ollama usando solo la
+# biblioteca estándar de Python (urllib).
+faster-whisper>=1.1.0
+sounddevice>=0.5
+numpy>=1.26

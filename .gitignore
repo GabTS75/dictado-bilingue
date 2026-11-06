@@ -1,0 +1,21 @@
+# Entorno virtual y cachés de Python
+.venv/
+__pycache__/
+*.pyc
+
+# Modelos descargados (pesados; se obtienen con descargar_modelos.py)
+models/
+
+# Nunca versionar audio ni registros
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.log
+
+# Configuración local del usuario
+config.local.*
+.env
+
+# Frases propias (pueden contener datos confidenciales): nunca se versionan
+pruebas/*.local.txt

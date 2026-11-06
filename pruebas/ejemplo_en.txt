@@ -1,0 +1,17 @@
+# Example sentences EN -> ES (NOT confidential). One per line; lines starting with # are ignored.
+# They mix registers, idioms and technical terms. The 7th sentence contains the words that
+# were mis-transcribed in the Phase 1 test (these / mains / appliance / thoroughly): read it
+# aloud to compare speech-recognition models.
+# To use your own sentences, create pruebas/mis_frases_en.local.txt (*.local.txt is not versioned).
+Good morning, Mark. I'm writing to confirm Thursday's meeting at ten o'clock.
+Sorry for the late reply; I've been out of the office all week.
+Could you send me the report before Friday? I need it for the client review.
+I'm swamped this week, but I'll try to squeeze in a call on Wednesday afternoon.
+I'm not sure the server can handle the load, so I'd rather run a test before going live.
+Let me know what you think of the proposal; we can tweak it if needed.
+Before cleaning the appliance, unplug it from the mains and inspect these parts thoroughly.
+I look forward to your feedback, and in the meantime I'll carry on with the documentation.
+We need to update the firewall and review the access rules for all users.
+I got lucky with this team: they're great and work really well together.
+Sorry to bother you, but do you know who I should ask for access to the shared folder?
+Thanks for your patience; I'll let you know as soon as I have any news.

@@ -1,0 +1,15 @@
+# Frases de ejemplo ES -> EN (NO confidenciales). Una por línea; las líneas con # se ignoran.
+# Mezclan registros, modismos y términos técnicos para valorar si la traducción suena nativa.
+# Para usar tus propias frases, crea pruebas/mis_frases_es.local.txt (los *.local.txt no se versionan).
+Buenos días, Marta. Te escribo para confirmar la reunión del jueves a las diez.
+Lamento el retraso en mi respuesta; he estado fuera de la oficina toda la semana.
+¿Podrías enviarme el informe antes del viernes? Lo necesito para la revisión con el cliente.
+Estoy bastante liado esta semana, pero intentaré sacar un hueco el miércoles por la tarde.
+No tengo claro si el servidor aguantará la carga, así que prefiero hacer una prueba antes de ponerlo en producción.
+Ya me dirás qué te parece la propuesta; si hace falta, la ajustamos sin problema.
+Antes de limpiar el aparato, desenchúfalo de la red eléctrica y revisa a fondo estas piezas.
+Quedo a la espera de tus comentarios y, mientras tanto, sigo adelante con la documentación.
+Tenemos que actualizar el cortafuegos y revisar las reglas de acceso de todos los usuarios.
+Con este equipo he tenido mucha suerte: son muy buenos y trabajan genial juntos.
+Perdona que te moleste, pero ¿sabes a quién debería pedir acceso a la carpeta compartida?
+Gracias por tu paciencia; en cuanto tenga novedades, te aviso.

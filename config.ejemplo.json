@@ -1,0 +1,11 @@
+{
+  "atajos": { "es-en": "rctrl", "en-es": "rshift" },
+  "modelo_traduccion": "translategemma:4b",
+  "modelo_voz": "large-v3-turbo",
+  "hilos_cpu": 0,
+  "dispositivo_audio": null,
+  "segundos_minimos": 0.4,
+  "segundos_maximos": 60,
+  "mantener_modelo": "30m",
+  "sonidos": true
+}
