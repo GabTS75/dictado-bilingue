@@ -13,4 +13,4 @@
 
 ## Evidencias
 
-_Se añadirán capturas y resultados al completar la fase._
+*Se añadirán capturas y resultados al completar la fase.*
